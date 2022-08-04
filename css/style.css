@@ -171,7 +171,23 @@ header nav ul.aw-navigation li a:hover:after{
     height:300px;
     cursor:pointer;
 }
+#aw-gallery2 li {
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    height:372px;
+    cursor:default;
+}
 #aw-gallery li img{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    -webkit-transition:all .3s ease;
+    transition:all .3s ease;
+    
+}
+#aw-gallery2 li img{
     position:relative;
     overflow:hidden;
     width:100%;
