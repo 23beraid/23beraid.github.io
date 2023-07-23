@@ -10,7 +10,7 @@ body{
     font-style: normal; 
     font-size: larger;
 }
-a{text-decoration: none;}
+a{text-decoration: none;color:#fff}
 h1, h2, h3, h4, h5, h6{
     font-weight: normal;
 }
@@ -42,6 +42,18 @@ header{position:relative;}
 }
 .aw-align-center{
     align-items: center;
+}
+.aw-webring{
+    color: #fff;
+    text-align: center;
+}
+
+.aw-email{
+    color: #000000;
+}
+footer .aw-webring li a{
+    text-decoration: underline;
+
 }
 header nav {
     position: fixed;
@@ -401,6 +413,8 @@ font-weight: 400;
     align-items: center;
 }
 /* Footer */
+
+
 footer {
 background-color: #444;
 padding: 10px 0;
@@ -427,6 +441,7 @@ footer .aw-social-icons li a{
 footer .aw-social-icons li a:hover{
     opacity: .7;
 }
+
 /* Animations*/
 .aw-pulsate {
     -webkit-animation:pulsate 3s ease-in-out;
